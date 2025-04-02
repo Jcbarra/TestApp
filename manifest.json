@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "shiny",
+  "packages": {
+    "shiny": {
+      "source": "CRAN",
+      "version": "1.7.4"
+    },
+    "rsconnect": {
+      "source": "CRAN",
+      "version": "1.0.0"
+    }
+  },
+  "files": [
+    "app.R"
+  ],
+  "primary_document": "app.R",
+  "entrypoint": "shinyApp"
+}
